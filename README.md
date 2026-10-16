@@ -1,4 +1,4 @@
-![Urbano Logo](https://res.cloudinary.com/wgsj17do/image/upload/v1792139663/skemalytic.png)
+![Urbano Logo](https://res.cloudinary.com/wgsj17do/image/upload/v1792139823/skemalytic.png)
 
 # Skemalytic
 
