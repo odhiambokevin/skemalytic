@@ -1,0 +1,3 @@
+#deployment definitions for repeatable ingestion and transformation workflows
+#gets data from scheduled and/or triggered source data and upstream tables updating bronze/silver/gold tables
+#jobs can be triggered after matches or run continuously where appropriate.

@@ -1,0 +1,12 @@
+{
+  "name": "Football Analytics Pipeline",
+  "description":"orchestration jobs for Databricks",
+  "tasks": [
+    {"task_key": "bronze_tracking", "notebook": "bronze/ingest_tracking.py"},
+    {"task_key": "bronze_events", "notebook": "bronze/ingest_events.py"},
+    {"task_key": "silver_tracking", "notebook": "silver/transform_tracking.py", "depends_on": ["bronze_tracking"]},
+    {"task_key": "silver_events", "notebook": "silver/transform_events.py", "depends_on": ["bronze_events"]},
+    {"task_key": "gold_metrics", "notebook": "gold/aggregate_metrics.py", "depends_on": ["silver_tracking", "silver_events"]},
+    {"task_key": "gold_ml_features", "notebook": "gold/ML_features.py", "depends_on": ["gold_metrics"]}
+  ]
+}
