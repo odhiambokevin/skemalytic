@@ -1,4 +1,5 @@
-![Urbano Logo](https://res.cloudinary.com/wgsj17do/image/upload/v1792139823/skemalytic.png)
+.. image:: https://res.cloudinary.com/wgsj17do/image/upload/v1792139823/skemalytic.png
+    :height: 100px
 
 # Skemalytic
 
