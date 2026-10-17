@@ -36,34 +36,34 @@ Datalakehouse architecture using the medallion architecture. Contains databricks
 1. **Input:** structured tracking/event outputs from the pipeline ie /storage.
 2. **Output:** bronze/silver/gold delta data, enterprise ML features,
 
-### `api`
+### `detection`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `events`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `models`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `pitch`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `possession`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `storage`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `teams`
 1. **Input:**
 2. **Output:** 
 
-### `api`
+### `tracking`
 1. **Input:**
 2. **Output:** 
