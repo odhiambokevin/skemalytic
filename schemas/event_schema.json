@@ -1,0 +1,4 @@
+{
+  "name": "football_event",
+  "fields": ["timestamp", "match_id", "team", "player_id", "event_type", "x", "y", "target_player", "outcome"]
+}

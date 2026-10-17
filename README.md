@@ -55,6 +55,11 @@ non-detector ML model artifacts and organization for event detection, team ident
 1. **Input:** ball/player pitch coordinates and team identities.
 2. **Output:** possession state and duration.
 
+### `schemas`
+Shared application-level data contracts.
+1. **Input:** definitions for tracking, events, match metadata and derived metrics.
+2. **Output:** consistent record structures shared across pipeline components and the Databricks ingestion boundary.
+
 ### `storage`
 1. **Input:** tracking, event and derived metric records.
 2. **Output:** low-latency local storage/query interfaces and handoff to Databricks ingestion.
@@ -70,3 +75,4 @@ non-detector ML model artifacts and organization for event detection, team ident
 ### `video`
 1. **Input:** raw match video.
 2. **Output:** frames consumed by detection.
+

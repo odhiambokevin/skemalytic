@@ -1,0 +1,4 @@
+{
+  "name": "tracking_record",
+  "fields": ["timestamp", "match_id", "player_id", "team", "x", "y", "vx", "vy", "confidence"]
+}
