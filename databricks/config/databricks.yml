@@ -1,4 +1,5 @@
-#Databricks configuration
-Environment and deployment configuration for Databricks assets.
-**Input:** environment-specific settings/secrets references. **Output:** consistent
-job/pipeline deployment. Secrets themselves should not be committed.
+#databricks configuration
+#environment and deployment configuration for Databricks assets.
+#input: environment-specific settings/secrets references.
+#output: consistent
+#job/pipeline deployment. Secrets themselves should not be committed.
