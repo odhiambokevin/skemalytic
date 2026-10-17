@@ -1,0 +1,13 @@
+torch
+ultralytics
+opencv-python
+bytetrack
+polars
+pyarrow
+databricks-sql-connector
+pyspark
+fastapi
+redis
+numpy
+psycopg2-binary
+uvicorn

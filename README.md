@@ -37,33 +37,36 @@ Datalakehouse architecture using the medallion architecture. Contains databricks
 2. **Output:** bronze/silver/gold delta data, enterprise ML features,
 
 ### `detection`
-1. **Input:**
-2. **Output:** 
+1. **Input:** video frames.
+2. **Output:** bounding boxes, classes and confidence scores.
 
 ### `events`
-1. **Input:**
-2. **Output:** 
+1. **Input:** pitch coordinates, tracking, team identity and possession state.
+2. **Output:** structured event records.
 
 ### `models`
-1. **Input:**
-2. **Output:** 
+non-detector ML model artifacts and organization for event detection, team identification and pitch calibration.
 
 ### `pitch`
-1. **Input:**
-2. **Output:** 
+1. **Input:** tracked pixel coordinates.
+2. **Output:** x/y pitch coordinates and geometric zones.
 
 ### `possession`
-1. **Input:**
-2. **Output:** 
+1. **Input:** ball/player pitch coordinates and team identities.
+2. **Output:** possession state and duration.
 
 ### `storage`
-1. **Input:**
-2. **Output:** 
+1. **Input:** tracking, event and derived metric records.
+2. **Output:** low-latency local storage/query interfaces and handoff to Databricks ingestion.
 
 ### `teams`
-1. **Input:**
-2. **Output:** 
+1. **Input:** player crops and tracking IDs.
+2. **Output:** team identity associated with tracked players.
 
 ### `tracking`
-1. **Input:**
-2. **Output:** 
+1. **Input:** detection bounding boxes and confidences.
+2. **Output:** frame-level trajectories with persistent IDs.
+
+### `video`
+1. **Input:** raw match video.
+2. **Output:** frames consumed by detection.
